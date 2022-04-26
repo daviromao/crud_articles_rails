@@ -1,24 +1,27 @@
-# README
+# MY ARTICLES
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### A simple rest api in rails
 
-Things you may want to cover:
+<br>
 
-* Ruby version
+## CREATE
 
-* System dependencies
+`POST /api/v1/articles`
 
-* Configuration
+## READ 
 
-* Database creation
+All articles
 
-* Database initialization
+`GET /api/v1/articles`
 
-* How to run the test suite
+specific article
 
-* Services (job queues, cache servers, search engines, etc.)
+`GET /api/v1/articles/:id`
 
-* Deployment instructions
+## UPDATE
 
-* ...
+`PUT /api/v1/articles/:id`
+
+## DELETE
+
+`DELETE /api/v1/articles/:id`
